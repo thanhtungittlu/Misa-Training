@@ -1,0 +1,21 @@
+.t-row{
+    display: block;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+.t-row>label{
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 700;
+}
+
+.text-align-left{
+    text-align: left;
+}
+.text-align-right{
+    text-align: right;
+}
+.text-align-center{
+    text-align: center;
+}

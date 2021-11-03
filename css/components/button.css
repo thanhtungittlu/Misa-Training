@@ -1,12 +1,21 @@
 .t-button {
-    background-color: green;
+    background-color: #019160;
+    border-radius: 4px;
+    height:40px;
+    font-size:13px;
+    color: #ffffff;
+    font-weight: normal;
+    padding: 0px 24px;
+    text-align: center;
+    outline: unset;
+    border: none;
 }
 
 .t-button:hover{
-    background-color: red;
+    background-color: #2FBE8E;
     cursor: pointer;
 }
 
 .t-button:active{
-    
+    background-color: #01B075
 }

@@ -1,0 +1,25 @@
+table.t-table{
+    border-spacing: unset;
+    border: unset;
+    border-collapse: collapse;
+}
+
+table.t-table tr{
+    height: 48px;
+    border-bottom: 1px solid #ddd;
+}
+
+table.t-table tbody tr:nth-child(2n-1){
+    background-color: #E9EBEE;
+}
+
+table.t-table tbody tr:hover{
+    background-color: #EBF9F4;
+    cursor: pointer;
+}
+
+table.t-table td,th{
+    padding: 0px 8px;
+    border: none;
+}
+

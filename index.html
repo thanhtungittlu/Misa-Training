@@ -8,16 +8,73 @@
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
-    Welcome to training.
+    <h1>Welcome to training.</h1>
     <br>
     <div class="t-row">
         <label >1. Button</label>
-        <button class="t-button">Thêm mới</button>
+        <button class="t-button">Thêm mới nhân viên</button>
     </div>
     <div class="t-row">
-        <label >2. Input</label>
-        <input class="t-input" type="text">
+        <label >2. Input default</label>
+        <input class="t-input" type="text" placeholder="hint text">
     </div>
+    <div class="t-row">
+        <label >3. Input Error</label>
+        <input class="t-input t-input-error" type="text" placeholder="hint text error">
+    </div>
+    <div class="t-row">
+        <label >4. Input Search</label>
+        <input class="t-input t-input-search" type="text" placeholder="Tìm kiếm thông tin">
+    </div>
+    <div class="t-row">
+        <label >5. Input Search error</label>
+        <input class="t-input t-input-search t-input-error" type="text" placeholder="Tìm kiếm thông tin">
+    </div>
+    <div class="t-row">
+        <label >6. Combobox</label>
+        <select class="t-combobox" name="" id="">
+            <option value="">Nam</option>
+            <option value="">Nữ</option>
+        </select>
+    </div>    
+    <div class="t-row">
+        <label >7. Table</label>
+        <table class="t-table" border="1">
+            <thead>
+                <tr>
+                    <th class="text-align-left">Mã nhân viên</th>
+                    <th class="text-align-left">Họ và tên</th>
+                    <th class="text-align-left">Giới tính</th>
+                    <th class="text-align-center">Ngày sinh</th>
+                    <th class="text-align-right">Mức lương cơ bản</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="text-align-left">NV001</td>
+                    <td class="text-align-left">Lê Thanh Tùng</td>
+                    <td class="text-align-left">Nam</td>
+                    <td class="text-align-center">14/12/1999</td>
+                    <td class="text-align-right">30.000.000</td>
+                </tr>
+                <tr>
+                    <td class="text-align-left">NV002</td>
+                    <td class="text-align-left">Đinh Hoài Thương</td>
+                    <td class="text-align-left">Nam</td>
+                    <td class="text-align-center">14/12/1999</td>
+                    <td class="text-align-right">30.000.000</td>
+                </tr>
+                <tr>
+                    <td class="text-align-left">NV003</td>
+                    <td class="text-align-left">Phạm Văn Hùng</td>
+                    <td class="text-align-left">Nam</td>
+                    <td class="text-align-center">14/12/1999</td>
+                    <td class="text-align-right">30.000.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
     
 </body>
 </html>

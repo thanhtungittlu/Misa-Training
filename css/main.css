@@ -1,10 +1,12 @@
 @import url("./common/common.css");
 @import url("./components/button.css");
 @import url("./components/input.css");
-
+@import url("./components/combobox.css");
+@import url("./components/table.css");
 
 body{
     font-family: GoogleSans;
+    font-size:13px;
 }
 
 /* Định nghĩa font chữ */
@@ -12,11 +14,11 @@ body{
     font-family: GoogleSans;
     src: url("../content/font/GoogleSans-Regular.otf");
 }
-/* @font-face {        
-    font-family: GoogleSans;
-    src: url("../content/font/GoogleSans-Regular.otf");
+@font-face {        
+    font-family: GoogleSans-Bold;
+    src: url("../content/font/GoogleSans-Bold.otf");
 }
 @font-face {        
-    font-family: GoogleSans;
-    src: url("../content/font/GoogleSans-Regular.otf");
-} */
+    font-family: GoogleSans-Italic;
+    src: url("../content/font/GoogleSans-Italic.otf");
+}

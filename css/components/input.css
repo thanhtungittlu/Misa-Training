@@ -1,16 +1,33 @@
 .t-input {
-
+    border: 1px solid #bbbbbb;
+    border-radius: 4px;
+    height: 40px;
+    outline: none;
+    padding: 0px 16px;
 }
 
 .t-input::placeholder{
-
+    font-size:11px;
+    color: #bbbbbb
 }
 
 .t-input:focus{
-
+    border-color: #019160;
 }
 
 .t-input.t-input-error{
+    border-color: #FF4747;  
+}
 
-    
+input.t-input-search{
+    background-image: url("../../content/icon/search.png");
+    background-repeat: no-repeat;
+    background-position: 16px center;
+    background-size: 16px 16px;
+    padding-left: 40px;
+}
+
+input.t-input-search::placeholder{
+    font-size:12px;
+
 }
