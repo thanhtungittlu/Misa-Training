@@ -1,0 +1,22 @@
+@import url("./common/common.css");
+@import url("./components/button.css");
+@import url("./components/input.css");
+
+
+body{
+    font-family: GoogleSans;
+}
+
+/* Định nghĩa font chữ */
+@font-face {        
+    font-family: GoogleSans;
+    src: url("../content/font/GoogleSans-Regular.otf");
+}
+/* @font-face {        
+    font-family: GoogleSans;
+    src: url("../content/font/GoogleSans-Regular.otf");
+}
+@font-face {        
+    font-family: GoogleSans;
+    src: url("../content/font/GoogleSans-Regular.otf");
+} */

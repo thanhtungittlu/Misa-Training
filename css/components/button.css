@@ -1,0 +1,12 @@
+.t-button {
+    background-color: green;
+}
+
+.t-button:hover{
+    background-color: red;
+    cursor: pointer;
+}
+
+.t-button:active{
+    
+}
