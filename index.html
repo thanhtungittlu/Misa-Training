@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Phần mềm quản lý nhà hàng!!!</title>
+    <link rel="stylesheet" href="./content/font/fontawesome-5.15.1/css/all.css">
     <link rel="stylesheet" href="./css/main.css">
+    
 </head>
 <body>
     <h1>Welcome to training.</h1>
@@ -103,6 +105,70 @@
         </div>
     </div>
 
-    
+    <div class="t-row">
+        <label >8. Toast Messenger</label>
+        <div class="t-toast-msg">
+            <div class="section1">
+                <div class="toast-msg-icon toast-remove-items"><i class="fas fa-exclamation-triangle"></i></div>
+                <div class="toast-msg-text ">Xóa Thành công</div>
+            </div>
+            <div class="toast-msg-close toast-remove-items"> <i class="fas fa-times"></i>  </div>
+        </div>
+
+        <div class="t-toast-msg">
+            <div class="section1">
+                <div class="toast-msg-icon toast-add-items"><i class="far fa-check-circle"></i></div>
+                <div class="toast-msg-text ">Thêm mới thành công</div>
+            </div>
+            <div class="toast-msg-close toast-add-items"> <i class="fas fa-times"></i>  </div>
+        </div>
+
+
+    </div> 
+    <label >9. POP-UP CẢNH BÁO</label>
+    <br>
+    <br>
+    <button id="showPopup" class="t-button">Hiển thị popup</button>
+    <div id='t-popup-model' class="t-popup-model">
+        <div class="t-row">
+            <div class="t-popup" name="" id="">
+                <div id='t-popup-close' class="icon-close"><i class="fas fa-times"></i></div>
+                <div class="t-popup-header">Đóng Form thông tin tuyển dụng</div>
+                <div class="t-popup-content">
+                    <div class="t-icon-popup">
+                        <i class="fas fa-exclamation-triangle"></i>
+                    </div>
+                    <div class="t-text-popup">
+                        Bạn có chắc muốn đóng Form "Nhập thông tin chung của thủ tục 603" hay không ? 
+                    </div>
+                </div>
+                <div class="t-popup-footer">
+                    <button class="t-button btn-fisrt">Tiếp tục nhập</button>
+                    <button id='t-popup-close-btn' class="t-button btn-second"> Đóng</button>
+                </div>
+            </div>
+        </div> 
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <script>   
+        document.getElementById('showPopup').addEventListener('click', function() {
+            document.getElementById('t-popup-model').style.display = 'block'
+        })
+        document.getElementById('t-popup-close').addEventListener('click', function() {
+            document.getElementById('t-popup-model').style.display = ''
+        })
+        document.getElementById('t-popup-close-btn').addEventListener('click', function() {
+            document.getElementById('t-popup-model').style.display = ''
+        })
+
+    </script>
 </body>
 </html>

@@ -4,6 +4,9 @@
 @import url("./components/combobox.css");
 @import url("./components/table.css");
 @import url("./components/paging.css");
+@import url("./components/toast-msg.css");
+@import url("./components/popup.css");
+
 body{
     font-family: GoogleSans;
     font-size:13px;
