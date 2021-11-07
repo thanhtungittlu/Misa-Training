@@ -1,0 +1,63 @@
+.header{
+    height:48px;
+    width: calc(100% - 226px);
+    float: right;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-restaurant {
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.header-account {
+    margin-right: 16px;
+    display: flex;
+    align-items: center;
+}
+
+.header-restaurant .logo-restaurant{
+    width: 32px;
+    height: 32px;
+    background-image: url("../../content/icon/42877472-restaurant-icon.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius:4px;
+    cursor: pointer;
+}
+
+.header-restaurant .text-header-restaurant{
+    border: none !important;
+    cursor: pointer;
+}
+
+
+
+
+.header-account .notification-account{
+    cursor: pointer;
+}
+
+
+.header-account .logo-account{
+    width: 32px;
+    height: 32px;
+    background-image: url("../../content/icon/avatar-default.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0px 16px;
+    cursor: pointer;
+}
+
+.header-account .text-account{
+    cursor: pointer;
+}
+
+.header-account .option-account {
+    margin-left: 16px;
+    cursor: pointer;
+}

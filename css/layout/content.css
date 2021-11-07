@@ -1,0 +1,63 @@
+.content{
+    width: calc(100% - 226px);
+    height: calc(100vh - 48px);
+    float: right; 
+}
+
+.content-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 16px 16px 16px 24px;
+}
+
+.content-title i{
+    margin-right: 8px;
+}
+
+.content-filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 24px;
+    margin-right:16px;
+}
+
+.content-filter .filter{
+
+}
+
+.content-filter .content-input-filter{
+    width:250px;
+    margin-right: 8px;
+}
+
+.content-filter .content-combobox1{
+    margin-right: 8px;
+
+}
+.content-filter .logo-refresh{
+    width: 30px;
+    height: 25px;
+    border: 1px solid #ddd;
+    border-radius:4px;
+}
+
+.content-filter .logo-refresh .logo{
+    width:20px;
+    height:20px;
+    background-image: url("../../content/icon/refresh.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-left: 5px;
+    margin-top: 3px;
+}
+
+.content-rentable{
+
+
+}
+
+.content-footer {
+
+}

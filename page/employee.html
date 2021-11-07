@@ -4,9 +4,87 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../content/font/fontawesome-5.15.1/css/all.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Quản lý bán hàng</title>
 </head>
 <body>
-    
+    <div class="main">
+        <div class="header">
+            <div class="header-restaurant">
+                <div class="logo-restaurant"></div>
+                <select class="t-combobox text-header-restaurant" name="" id="">
+                    <option value="">Nhà hàng biển đông</option>
+                    <option value="">Nhà hàng biển chết</option>
+                    <option value="">Nhà hàng biển bắc</option>
+                    <option value="">Nhà hàng biển đỏ</option>
+                </select>
+            </div>
+            <div class="header-account">
+                <div class="notification-account"><i class="far fa-bell"></i></div>
+                <div class="logo-account"></div>
+                <div class="text-account">Lê Thanh Tùng</div>
+                <div class="option-account"><i class="fas fa-ellipsis-h"></i></div>
+            </div>
+        </div>
+        <div class="content">
+            <div class="content-title">
+                <h3>Danh sách nhân viên</h3>
+                <button class="t-button"> <i class="fas fa-user-plus "></i>Thêm nhân viên</button>
+            </div>
+            <div class="content-filter">
+                <div class="filter">
+                    <input class="t-input t-input-search content-input-filter" type="text" placeholder="Tìm kiếm theo mã, tên hoặc số điện thoại">
+                    <select class="t-combobox content-combobox1" name="" id="">
+                        <option value="">Tất cả phòng ban</option>
+                        <option value="">Phòng 1</option>
+                        <option value="">Phòng 2</option>
+                    </select>
+                    <select class="t-combobox" name="" id="">
+                        <option value="">Tất cả vị trí</option>
+                        <option value="">Vị trí 1</option>
+                        <option value="">Vị trí 2</option>
+                    </select>
+                </div>
+                <div class="logo-refresh">
+                    <div class="logo"></div>
+                </div>
+            </div>
+            <div class="content-rentable">
+
+            </div>
+            <div class="content-footer">
+
+            </div>
+        </div>
+        <div class="navbar">
+            <div class="header-navbar">
+                <div class="multiple-navbar"></div>
+                <div class="logo-navbar"></div>
+            </div>
+            <div class="section-navbar">
+                <div class="nav-option nav-option-focus">
+                    <div class="nav-option-logo logo-overview"></div>
+                    <div class="nav-option-text"> Tổng quan</div>
+                </div>
+                <div class="nav-option">
+                    <div class="nav-option-logo logo-report"></div>
+                    <div class="nav-option-text"> Báo cáo</div>
+                </div>
+                <div class="nav-option">
+                    <div class="nav-option-logo logo-buyitem"></div>
+                    <div class="nav-option-text"> Mua hàng</div>
+                </div>
+                <div class="nav-option">
+                    <div class="nav-option-logo logo-employee"></div>
+                    <div class="nav-option-text"> Danh mục nhân viên</div>
+                </div>
+                <div class="nav-option">
+                    <div class="nav-option-logo logo-system"></div>
+                    <div class="nav-option-text"> Thiết lập hệ thống</div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

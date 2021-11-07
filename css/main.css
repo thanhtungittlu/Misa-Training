@@ -6,10 +6,17 @@
 @import url("./components/paging.css");
 @import url("./components/toast-msg.css");
 @import url("./components/popup.css");
+@import url("./layout/content.css");
+@import url("./layout/header.css");
+@import url("./layout/navbar.css");
+
 
 body{
     font-family: GoogleSans;
     font-size:13px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
 /* Định nghĩa font chữ */
