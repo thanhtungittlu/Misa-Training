@@ -2,6 +2,9 @@
     width: calc(100% - 226px);
     height: calc(100vh - 48px);
     float: right; 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .content-title{
@@ -54,10 +57,85 @@
 }
 
 .content-rentable{
+    margin-left: 24px;
+    margin-right:16px;
+    flex: 1;
+}
+
+.content-table {
+    display: block;
+    overflow: scroll;
+    white-space: nowrap;
+    height: 520px;  
+}
+
+.content-table thead th {
+    position: sticky; 
+    top: 0; 
+    z-index: 1;
+    background-color: #fff;
+}
+/* 
+.content-table tbody tr { 
+    position: sticky; 
+    left: 0; 
+} */
 
 
+.content-table::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #dad4d4;
+} 
+.content-table::-webkit-scrollbar-thumb {
+    height: 6px;
+    background-color: rgb(148, 146, 146)
+}
+
+.content-table thead{
+    display: table;
+    width: 100%;
+}
+.content-table tbody{
+    display: table;
+    width: 100%;
+    
+}
+
+
+.code{
+    width: 100px;
+}
+.name{
+    width: 150px;
+
+}
+.sex{
+    width: 60px;
+}
+.birhday{
+    width: 80px;
+}
+.phonenumber{
+    width: 90px;
+}
+.email{
+    width: 150px;
+}
+.position{
+    width: 90px;
+}
+.department{
+    width: 90px;
+}
+.salary{
+    width: 120px;
+}
+.status{
+    width: 120px;
 }
 
 .content-footer {
-
+    margin-left: 24px;
+    margin-right:16px;
 }

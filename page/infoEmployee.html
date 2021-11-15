@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../content/font/fontawesome-5.15.1/css/all.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <title>Thông tin nhân viên</title>
+</head>
+<body>
+    <div class="main-info">
+        <div class="header-info">
+            <div class="icon"><i class="fas fa-times"></i></div>
+            <h2>THÔNG TIN NHÂN VIÊN</h2>
+        </div>
+        <div class="content-info">
+            <div class="col1">
+                <div class="avatar"></div>
+                <div class="text">(Vui lòng chọn ảnh có định dạng .jpg, .jpeg, .png, .gif)</div>
+            </div>
+            <div class="col2">
+                <div class="title" >A. THÔNG TIN CHUNG: </div>
+                <div class="t-row">
+                    <label >Mã nhân viên (*)</label>
+                    <input class="t-input col-input" type="text" >
+                </div>
+                <div class="t-row">
+                    <label >Ngày sinh </label>
+                    <input class="t-input col-input" type="text" >
+                </div>
+                <div class="t-row">
+                    <label >Số CMND/Căn cước (*)</label>
+                    <input class="t-input col-input" type="text" >
+                </div>
+                <div class="t-row">
+                    <label >Nơi cấp </label>
+                    <input class="t-input col-input" type="text" >
+                </div>
+                <div class="t-row">
+                    <label >Email (*)</label>
+                    <input class="t-input col-input" type="text" >
+                </div>
+                <div class="title">B. THÔNG TIN CÔNG VIỆC: </div>
+                <div class="t-row">
+                    <label >Vị trí </label>
+                    <select class="t-combobox col-input" style="height: 42px;" name="" id="">
+                        <option value="">Giám đốc</option>
+                        <option value="">Thợ sửa ống nước</option>
+                    </select>
+                </div>
+                <div class="t-row">
+                    <label >Mã số thuế cá nhân </label>
+                    <input class="t-input col-input" type="text" >
+                </div>
+                <div class="t-row">
+                    <label >Ngày gia nhập công ty</label>
+                    <input class="t-input col-input" type="text" >
+                </div>
+            </div>
+
+
+            <div class="col3">
+                
+                <div class="t-row" style="margin-top: 30px;">
+                    <label >Họ và tên (*)</label>
+                    <input class="t-input col-input" type="text" >
+                </div>
+                <div class="t-row">
+                    <label >Giới tính </label>
+                    <select class="t-combobox col-input" style="height: 42px;" name="" id="">
+                        <option value="">Nam</option>
+                        <option value="">Nữ</option>
+                    </select>
+                </div>
+                <div class="t-row">
+                    <label >Ngày cấp </label>
+                    <input class="t-input col-input" type="text" >
+                </div>
+
+                <div class="t-row" style="margin-top: 77px;" >
+                    <label >Số điện thoại (*)</label>
+                    <input class="t-input col-input" type="text" >
+                </div>
+                
+                <div class="t-row" style="margin-top: 30px;">
+                    <label >Phòng ban </label>
+                    <select class="t-combobox col-input" style="height: 42px;" name="" id="">
+                        <option value="">Phòng nhân sự</option>
+                        <option value="">Phòng markerting</option>
+                    </select>
+                </div>
+                <div class="t-row" >
+                    <label >Mức lương cơ bản</label>
+                    <input class="t-input col-input" type="text" >
+                </div>
+                <div class="t-row">
+                    <label >Tình trạng công việc </label>
+                    <select class="t-combobox col-input" style="height: 42px;" name="" id="">
+                        <option value="">Đang làm việc</option>
+                        <option value="">Đang nghỉ việc</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="t-popup-footer footter-info">
+            <button class="t-button btn-fisrt">Hủy</button>
+            <button id='t-popup-close-btn' class="t-button btn-second footter-info-btn"> <i class="far fa-save"></i> Lưu</button>
+        </div>
+        
+    </div>
+</body>
+</html>

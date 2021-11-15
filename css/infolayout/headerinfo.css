@@ -1,0 +1,25 @@
+.main-info {
+
+    transform: translate(50%, 0%);
+    width:700px;
+    border: 2px solid #ddd;
+    
+}
+
+.header-info {
+    margin: 28px 24px;
+}
+.header-info .icon{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 40px;
+    text-align: center;
+    font-size:24px;
+}
+.header-info h2{
+    margin-top: 12px;
+    margin-bottom: 16px;
+}

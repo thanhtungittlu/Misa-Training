@@ -2,7 +2,7 @@ table.t-table{
     border-spacing: unset;
     border: unset;
     border-collapse: collapse;
-    width: 100%;
+    
 }
 
 table.t-table tr{

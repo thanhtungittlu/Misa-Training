@@ -64,7 +64,7 @@
     width: 412px;
 }
 
-.t-popup .t-popup-footer{
+.t-popup-footer{
     display: flex;
     align-items: center;
     justify-content: flex-end;

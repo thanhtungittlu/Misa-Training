@@ -9,6 +9,10 @@
 @import url("./layout/content.css");
 @import url("./layout/header.css");
 @import url("./layout/navbar.css");
+@import url("./infolayout/contentinfo.css");
+@import url("./infolayout/footerinfo.css");
+@import url("./infolayout/headerinfo.css");
+
 
 
 body{

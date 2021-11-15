@@ -30,20 +30,24 @@
         <div class="content">
             <div class="content-title">
                 <h3>Danh sách nhân viên</h3>
-                <button class="t-button"> <i class="fas fa-user-plus "></i>Thêm nhân viên</button>
+                <button id="btn-add-new" class="t-button"> <i class="fas fa-user-plus "></i>Thêm nhân viên</button>
             </div>
             <div class="content-filter">
                 <div class="filter">
                     <input class="t-input t-input-search content-input-filter" type="text" placeholder="Tìm kiếm theo mã, tên hoặc số điện thoại">
                     <select class="t-combobox content-combobox1" name="" id="">
                         <option value="">Tất cả phòng ban</option>
-                        <option value="">Phòng 1</option>
-                        <option value="">Phòng 2</option>
+                        <option value="">Phòng nhân sự</option>
+                        <option value="">Phòng đào tạo</option>
+                        <option value="">Phòng công nghệ</option>
+                        <option value="">Phòng Marketing</option>
                     </select>
                     <select class="t-combobox" name="" id="">
                         <option value="">Tất cả vị trí</option>
-                        <option value="">Vị trí 1</option>
-                        <option value="">Vị trí 2</option>
+                        <option value="">Giám đốc</option>
+                        <option value="">Thu ngân</option>
+                        <option value="">Nhân viên markerting</option>
+
                     </select>
                 </div>
                 <div class="logo-refresh">
@@ -51,10 +55,221 @@
                 </div>
             </div>
             <div class="content-rentable">
+                <table class="t-table content-table" border="1">
+                    <thead>
+                        <tr>
+                            <th class="text-align-left code">Mã nhân viên</th>
+                            <th class="text-align-left name">Họ và tên</th>
+                            <th class="text-align-left sex">Giới tính</th>
+                            <th class="text-align-center birhday">Ngày sinh</th>
+                            <th class="text-align-left phonenumber">Điện thoại</th>
+                            <th class="text-align-left email">Email</th>
+                            <th class="text-align-left position">Chức vụ</th>
+                            <th class="text-align-left department">Phòng ban</th>
+                            <th class="text-align-right salary">Mức lương cơ bản</th>
+                            <th class="text-align-left status">Tình trạng công việc</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td class="text-align-left code">NV-532408</td>
+                            <td class="text-align-left name">Nguyễn Hoàng Lam</td>
+                            <td class="text-align-left sex">Nữ</td>
+                            <td class="text-align-center birhday">11/08/1978</td>
+                            <td class="text-align-left phonenumber">0940458449</td>
+                            <td class="text-align-left email">long@example.com</td>
+                            <td class="text-align-left position">Giám đốc</td>
+                            <td class="text-align-left department">Phòng nhân sự</td>
+                            <td class="text-align-right salary">17.739.391</td>
+                            <td class="text-align-left status">Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-left">NV-532408</td>
+                            <td class="text-align-left">Hồ Văn Long</td>
+                            <td class="text-align-left">Nam</td>
+                            <td class="text-align-center">11/08/1978</td>
+                            <td class="text-align-left">0940458449</td>
+                            <td class="text-align-left">long@example.com</td>
+                            <td class="text-align-left">Giám đốc</td>
+                            <td class="text-align-left">Phòng nhân sự</td>
+                            <td class="text-align-right">17.739.391</td>
+                            <td class="text-align-left">Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-left">NV-532408</td>
+                            <td class="text-align-left">Nguyễn Ngọc Anh</td>
+                            <td class="text-align-left">Nữ</td>
+                            <td class="text-align-center">11/08/1978</td>
+                            <td class="text-align-left">0940458449</td>
+                            <td class="text-align-left">long@example.com</td>
+                            <td class="text-align-left">Giám đốc</td>
+                            <td class="text-align-left">Phòng nhân sự</td>
+                            <td class="text-align-right">17.739.391</td>
+                            <td class="text-align-left">Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-left">NV-532408</td>
+                            <td class="text-align-left">Sơn vũ</td>
+                            <td class="text-align-left">Nam</td>
+                            <td class="text-align-center">11/08/1978</td>
+                            <td class="text-align-left">0940458449</td>
+                            <td class="text-align-left">long@example.com</td>
+                            <td class="text-align-left">Giám đốc</td>
+                            <td class="text-align-left">Phòng nhân sự</td>
+                            <td class="text-align-right">17.739.391</td>
+                            <td class="text-align-left">Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-left">NV-532408</td>
+                            <td class="text-align-left">Lê Thanh Tùng</td>
+                            <td class="text-align-left">Nữ</td>
+                            <td class="text-align-center">11/08/1978</td>
+                            <td class="text-align-left">0940458449</td>
+                            <td class="text-align-left">99lethanhtung@gmail.com</td>
+                            <td class="text-align-left">Giám đốc</td>
+                            <td class="text-align-left">Phòng nhân sự</td>
+                            <td class="text-align-right">17.739.391</td>
+                            <td class="text-align-left">Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-left">NV-532408</td>
+                            <td class="text-align-left">Nguyễn Hồng Phúc</td>
+                            <td class="text-align-left">Nữ</td>
+                            <td class="text-align-center">11/08/1978</td>
+                            <td class="text-align-left">0940458449</td>
+                            <td class="text-align-left">long@example.com</td>
+                            <td class="text-align-left">Giám đốc</td>
+                            <td class="text-align-left">Phòng nhân sự</td>
+                            <td class="text-align-right">17.739.391</td>
+                            <td class="text-align-left">Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-left">NV-532408</td>
+                            <td class="text-align-left">Lê Đoàn Anh Quân</td>
+                            <td class="text-align-left">Nam</td>
+                            <td class="text-align-center">11/08/1978</td>
+                            <td class="text-align-left">0940458449</td>
+                            <td class="text-align-left">long@example.com</td>
+                            <td class="text-align-left">Giám đốc</td>
+                            <td class="text-align-left">Phòng nhân sự</td>
+                            <td class="text-align-right">17.739.391</td>
+                            <td class="text-align-left">Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-left">NV-532408</td>
+                            <td class="text-align-left">Trần Thiệp</td>
+                            <td class="text-align-left">Nam</td>
+                            <td class="text-align-center">11/08/1978</td>
+                            <td class="text-align-left">0940458449</td>
+                            <td class="text-align-left">long@example.com</td>
+                            <td class="text-align-left">Giám đốc</td>
+                            <td class="text-align-left">Phòng nhân sự</td>
+                            <td class="text-align-right">17.739.391</td>
+                            <td class="text-align-left">Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-left">NV-532408</td>
+                            <td class="text-align-left">Nguyễn Tâm</td>
+                            <td class="text-align-left">Nữ</td>
+                            <td class="text-align-center">11/08/1978</td>
+                            <td class="text-align-left">0940458449</td>
+                            <td class="text-align-left">long@example.com</td>
+                            <td class="text-align-left">Giám đốc</td>
+                            <td class="text-align-left">Phòng nhân sự</td>
+                            <td class="text-align-right">17.739.391</td>
+                            <td class="text-align-left">Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-left">NV-532408</td>
+                            <td class="text-align-left">Hồ Văn Long</td>
+                            <td class="text-align-left">Nam</td>
+                            <td class="text-align-center">11/08/1978</td>
+                            <td class="text-align-left">0940458449</td>
+                            <td class="text-align-left">long@example.com</td>
+                            <td class="text-align-left">Giám đốc</td>
+                            <td class="text-align-left">Phòng nhân sự</td>
+                            <td class="text-align-right">17.739.391</td>
+                            <td class="text-align-left">Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-left">NV-532408</td>
+                            <td class="text-align-left">Nguyễn Văn Chất/td>
+                            <td class="text-align-left"></td>
+                            <td class="text-align-center">11/08/1978</td>
+                            <td class="text-align-left">0940458449</td>
+                            <td class="text-align-left">long@example.com</td>
+                            <td class="text-align-left">Giám đốc</td>
+                            <td class="text-align-left">Phòng nhân sự</td>
+                            <td class="text-align-right">17.739.391</td>
+                            <td class="text-align-left">Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-left">NV-532408</td>
+                            <td class="text-align-left">Hồ Văn Long</td>
+                            <td class="text-align-left"></td>
+                            <td class="text-align-center">11/08/1978</td>
+                            <td class="text-align-left">0940458449</td>
+                            <td class="text-align-left">long@example.com</td>
+                            <td class="text-align-left">Giám đốc</td>
+                            <td class="text-align-left">Phòng nhân sự</td>
+                            <td class="text-align-right">17.739.391</td>
+                            <td class="text-align-left">Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-left">NV-532408</td>
+                            <td class="text-align-left">Hồ Văn Long</td>
+                            <td class="text-align-left"></td>
+                            <td class="text-align-center">11/08/1978</td>
+                            <td class="text-align-left">0940458449</td>
+                            <td class="text-align-left">long@example.com</td>
+                            <td class="text-align-left">Giám đốc</td>
+                            <td class="text-align-left">Phòng nhân sự</td>
+                            <td class="text-align-right">17.739.391</td>
+                            <td class="text-align-left">Đang thử việc</td>
+                        </tr>
+                        <tr>
+                            <td class="text-align-left">NV-532408</td>
+                            <td class="text-align-left">Hồ Văn Long</td>
+                            <td class="text-align-left"></td>
+                            <td class="text-align-center">11/08/1978</td>
+                            <td class="text-align-left">0940458449</td>
+                            <td class="text-align-left">long@example.com</td>
+                            <td class="text-align-left">Giám đốc</td>
+                            <td class="text-align-left">Phòng nhân sự</td>
+                            <td class="text-align-right">17.739.391</td>
+                            <td class="text-align-left">Đang thử việc</td>
+                        </tr>
+                    </tbody>
+                </table>
 
             </div>
             <div class="content-footer">
-
+                <div class="t-table-paging">
+                    <div class="t-paging-left">
+                        Hiển thị 01-20/123 Nhân sự
+                    </div>
+                    <div class="t-paging-center">
+                        <div class="t-firt-paging"></div>
+                        <div class="t-prev-paging"></div>
+                        <div class="t-number-paging">
+                            <div class="t-circle t-circle-focus">1</div>
+                            <div class="t-circle">2</div>
+                            <div class="t-circle">3</div>
+                            <div class="t-circle">4</div>
+                            <div class="t-circle">5</div>
+                        </div>
+                        <div class="t-next-paging"></div>
+                        <div class="t-last-paging"></div>
+                       
+                    </div>
+                    <div class="t-paging-right content-paging">
+                        <select class="t-combobox" name="" id="">
+                            <option value="">10 Nhân sự / trang</option>
+                            <option value="">20 Nhân sự / trang</option>
+                            <option value="">30 Nhân sự / trang</option>
+                        </select>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="navbar">
@@ -86,5 +301,11 @@
             </div>
         </div>
     </div>
+    <!-- Thư viện -->
+    <script src="../js/jquery.js"></script>
+    <!-- Js dùng chung -->
+
+    <!-- Js dùng chung -->
+    <script src="../js/page/employee.js"></script>
 </body>
 </html>
